@@ -97,14 +97,19 @@ nav ul li:hover {
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    padding-left: 10px;
+    width: 1200px;
     flex-direction: row;
 }
-.textLeft {
+.flexbox div {
     flex: 1;
     margin: 0 10px;
     background-color: black;
-    padding: 10px;;
+    
+}
+
+#bigImage {
+    width: 600px;
+    height: 300px;
 }
 
 .col_detail {
