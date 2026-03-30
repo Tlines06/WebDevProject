@@ -41,7 +41,7 @@ img {
 nav {
     background-color: silver;
     padding: 5px;
-    width: 230%;
+    width: 290%;
 }
 .proCon {
     color: white;
@@ -110,6 +110,8 @@ nav ul li:hover {
 #bigImage {
     width: 600px;
     height: 300px;
+    float:left;
+    margin-right: 10px;
 }
 
 .col_detail {
