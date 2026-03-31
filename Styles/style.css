@@ -40,8 +40,10 @@ img {
 
 nav {
     background-color: silver;
-    padding: 5px;
-    width: 290%;
+    padding: 14px 16px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
 }
 .proCon {
     color: white;
@@ -124,3 +126,5 @@ nav ul li:hover {
 .leanRight {
     text-align: right;
 }
+
+
