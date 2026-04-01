@@ -39,11 +39,10 @@ img {
 }
 
 nav {
-    background-color: silver;
-    padding: 14px 16px;
-    max-width: 100%;
-    height: auto;
-    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: #B2B2B2;
+    width: 100%;
 }
 .proCon {
     color: white;
