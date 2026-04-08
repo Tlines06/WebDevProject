@@ -31,10 +31,16 @@
             <section>
                 <h1 id="title">Game Engines to use in 2026</h1>
                 <h2>Data Collection</h2>
-                <form name="email_form" action="subscribe.php" method="post">
+                <form name="email_form" action="http://foo.com" method="get">
                 <p>Please enter your email address to the form to subscribe to this newsletter</p>
-                <p>E-Mail: <input type="text" name="email"></p>
-                <p><input type="submit" name="submit" value="subscribe"></p>
+                <p class="required">E-Mail: <input type="text" name="email"></p>
+                <style>
+                    .required:after {
+                        content: "*";
+                        color: red;
+                    }
+                </style>
+                <p><input type="submit" name="submit" value="Subscribe"></p>
                 </form>
             </section>
 
