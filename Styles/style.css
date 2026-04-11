@@ -130,6 +130,14 @@ nav ul li:hover {
     text-align: right;
 }
 
+img {
+    border: 0;
+}
+
+table {
+    border: 1;
+}
+
 table tr th {
     color: #B2B2B2;
 }
